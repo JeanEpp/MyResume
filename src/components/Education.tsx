@@ -23,7 +23,7 @@ function Education(prop: { education: EducationObject, id: number }) {
     return <div id={prop.id.toString()} className={"work pb-6"}>
         <div>
             <div className="p-6 mx-auto bg-light text-dark rounded-xl shadow-lg items-center space-x-0 justify-center transition-colors">
-                <div className="text-3xl font-medium">{prop.education.institution}</div>
+                <div className="text-3xl font-medium">{prop.education.institution.replace(" ", "")}</div>
                 <div className="pt-6">
                     <img className="flex justify-center w-40 mx-auto" src={"./" + prop.education.institution + '.png'} onLoad={handleImageLoaded} />
                 </div>
