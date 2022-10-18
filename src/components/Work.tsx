@@ -16,19 +16,25 @@ export function isWorkObject(object: any): object is WorkObject {
 }
 
 function Work(prop: { work: WorkObject, id: number }) {
-    function handleImageLoaded() {
+    function handleWorkImageLoaded() {
+        console.log("Infunction")
         const div = document.getElementById(prop.id.toString())!;
         const divEmpty = document.getElementById(prop.id + 'bis')!;
         if (document.readyState === "complete")
             divEmpty.style.setProperty("height", div.offsetHeight + "px")
     }
 
+    useEffect(() => {
+        console.log("InEffect")
+        handleWorkImageLoaded()
+    })
+
     return <div id={prop.id.toString()} className={"work pb-6"}>
         <a href={prop.work.url}>
             <div className="p-6 mx-auto bg-light text-dark rounded-xl shadow-lg items-center space-x-0 justify-center transition-colors">
                 <div className="text-3xl font-medium">{prop.work.name}</div>
                 <div className="pt-6">
-                    <img className="flex justify-center w-40 mx-auto" src={'./' + prop.work.name.replaceAll(" ", "") + '.png'} onLoad={handleImageLoaded} />
+                    <img className="flex justify-center w-40 mx-auto" src={'./src/assets/' + prop.work.name.replaceAll(" ", "") + '.png'} onLoad={() => handleWorkImageLoaded()} />
                 </div>
                 <div className="p-6">
                     <div className="text-xl font-medium">{prop.work.position}</div>

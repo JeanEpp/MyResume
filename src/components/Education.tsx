@@ -13,7 +13,7 @@ export function isEducationObject(object: any): object is EducationObject {
 }
 
 function Education(prop: { education: EducationObject, id: number }) {
-    function handleImageLoaded() {
+    function handleEducationImageLoaded() {
         const div = document.getElementById(prop.id.toString())!;
         const divEmpty = document.getElementById(prop.id + 'bis')!;
         if (document.readyState === "complete")
@@ -25,7 +25,7 @@ function Education(prop: { education: EducationObject, id: number }) {
             <div className="p-6 mx-auto bg-light text-dark rounded-xl shadow-lg items-center space-x-0 justify-center transition-colors">
                 <div className="text-3xl font-medium">{prop.education.institution}</div>
                 <div className="pt-6">
-                    <img className="flex justify-center w-40 mx-auto" src={"./" + prop.education.institution.replaceAll(" ", "") + '.png'} onLoad={handleImageLoaded} />
+                    <img className="flex justify-center w-40 mx-auto" src={"./src/assets/" + prop.education.institution.replaceAll(" ", "") + '.png'} onLoad={handleEducationImageLoaded} />
                 </div>
                 <div className="p-6">
                     <div className="text-xl font-medium">{prop.education.area}</div>
