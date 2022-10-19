@@ -24,11 +24,6 @@ function Work(prop: { work: WorkObject, id: number }) {
             divEmpty.style.setProperty("height", div.offsetHeight + "px")
     }
 
-    useEffect(() => {
-        console.log("InEffect")
-        handleWorkImageLoaded()
-    })
-
     return <div id={prop.id.toString()} className={"work pb-6"}>
         <a href={prop.work.url}>
             <div className="p-6 mx-auto bg-light text-dark rounded-xl shadow-lg items-center space-x-0 justify-center transition-colors">
