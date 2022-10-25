@@ -12,11 +12,11 @@ function ProgressBar() {
                 scrollProgress.style.height = '0%';
         });
     })
-    return <div className="w-[10px]">
-            <div className="w-[10px] bg-light h-[100%]">
-                <div id="scroll-progress" className="bg-orange h-[0%]"></div>
-            </div>
+    return <div id="scroll-bar" className="w-[10px] absolute h-[100%] left-1/2 top-0">
+        <div className="w-[10px] bg-light h-[100%]">
+            <div id="scroll-progress" className="bg-orange h-[0%]"></div>
         </div>
+    </div>
 }
-  
+
 export default ProgressBar;

@@ -76,20 +76,13 @@ function Carousel(prop: { projects: ProjectObject[] }) {
         document.getElementById("Project" + 0)!.style.setProperty("scale", "calc(125%)");
     }, []);
 
-    function handleImageLoaded(id: string) {
-        const div = document.getElementById(id)!;
-        const divEmpty = document.getElementById(id + 'bis')!;
-        if (document.readyState === "complete")
-            divEmpty.style.setProperty("height", div.offsetHeight + "px")
-    }
-
     for (let elem in prop.projects) {
         let item = prop.projects[elem]
         list.push(<div id={"Project" + i++} key={i} className="carousel-item project flex text-center relative snap-start scale scale-75 md:w-1/3">
             <a className='h-full w-full aspect-square flex flex-col justify-center bg-light transition-colors rounded-2xl z-0 pt-4' href={item.url}>
                 <div className="text-3xl font-medium">{item.name}</div>
                 <div className="pt-6">
-                    <img className="flex justify-center w-32 mx-auto" src={'./'+ item.name.replaceAll(" ", "") + '.png'} onLoad={() => handleImageLoaded(elem)}/>
+                    <img className="flex justify-center w-32 mx-auto" src={'./'+ item.name.replaceAll(" ", "") + '.png'}/>
                 </div>
                 <div className="p-6">
                     <div className='pb-3'>{item.startDate + " : " + (item.endDate ? item.endDate : "")}</div>

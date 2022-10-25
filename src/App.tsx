@@ -1,5 +1,5 @@
 import './App.css'
-import { Link, Route, Switch } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import { useEffect } from 'react';
 import { applyTheme } from "./utils";
@@ -19,7 +19,9 @@ function App() {
 					<a href='#Skills/Languages'>Skills/Languages</a>
 				</div>
 			</nav>
-			<Route path="/" component={Home}></Route>
+			<Routes >
+				<Route path="/MyResume" element={<Home/>}></Route>
+			</Routes>
 		</div>
 	)
 }

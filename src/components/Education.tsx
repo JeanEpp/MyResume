@@ -5,7 +5,7 @@ export interface EducationObject {
     startDate: string,
     endDate: string,
     score: string,
-    courses: never[]
+    courses: string[]
 }
 
 export function isEducationObject(object: any): object is EducationObject {
@@ -13,27 +13,25 @@ export function isEducationObject(object: any): object is EducationObject {
 }
 
 function Education(prop: { education: EducationObject, id: number }) {
-    function handleEducationImageLoaded() {
-        const div = document.getElementById(prop.id.toString())!;
-        const divEmpty = document.getElementById(prop.id + 'bis')!;
-        if (document.readyState === "complete")
-            divEmpty.style.setProperty("height", div.offsetHeight + "px")
+    let courses: JSX.Element[] = [];
+    for (let s in prop.education.courses) {
+        courses.push(<p key={prop.education.institution + s}>{prop.education.courses[s]}</p>);
     }
 
-    return <div id={prop.id.toString()} className={"work pb-6"}>
+    return <div id={prop.id.toString()} className={"work w-[45%] pb-6 self-end"}>
         <div>
             <div className="p-6 mx-auto bg-light text-dark rounded-xl shadow-lg items-center space-x-0 justify-center transition-colors">
                 <div className="text-3xl font-medium">{prop.education.institution}</div>
                 <div className="pt-6">
-                    <img className="flex justify-center w-40 mx-auto" src={"./" + prop.education.institution.replaceAll(" ", "") + '.png'} onLoad={handleEducationImageLoaded} />
+                    <img className="flex justify-center w-40 mx-auto" src={"./" + prop.education.institution.replaceAll(" ", "") + '.png'}/>
                 </div>
-                <div className="p-6">
+                <div className="pt-6">
                     <div className="text-xl font-medium">{prop.education.area}</div>
                     <div>{prop.education.startDate + " : " + (prop.education.endDate ? prop.education.endDate : "")}</div>
                     <div>{prop.education.area}</div>
                 </div>
-                <div>{prop.education.score}</div>
-                <div>{prop.education.courses}</div>
+                <div className={(prop.education.score === "" ? "hidden": "font-bold pt-6")}>Overall score: {prop.education.score}</div>
+                <div className={(prop.education.courses.length === 0 ? "hidden": "pt-6")}>{courses}</div>
             </div>
         </div>
     </div>

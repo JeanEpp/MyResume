@@ -7,7 +7,7 @@
     "email": "jean.epp@epitech.eu",
     "phone": "+33 6 52 06 57 57",
     "url": "",
-    "summary": "I'm looking for a full-time internship of 4 to 6 mounths and ideally starting in march 2023 end endding at end august 2023 in web, mobile or software development.",
+    "summary": "I'm looking for a full-time internship from 4 to 6 months and ideally starting in March 2023 and endding at end August 2023 in web, mobile or software development.",
     "location": {
       "countryCode": "FR",
       "address": "4 rue Hofgasse, 57820 Dannelbourg"
@@ -87,7 +87,18 @@
       "startDate": "2021-09-30",
       "endDate": "2022-04-30",
       "score": "2.57",
-      "courses": []
+      "courses": [
+        "GRH11014 - Aspects humains des organisations - 3,19",
+        "INF16107 - Introduction à l'Internet - 2,03",
+        "INF23207 - Génie logiciel II - 2,09",
+        "INF23307 - Analyse des applications en commerce électronique - 3,13",
+        "INF11207 - Programmation orientée objet II - 1,55",
+        "INF21307 - Structures de données et algorithmes - 2,54",
+        "INF26207 - Téléinformatique - 2,36",
+        "INF27507 - Technologies du commerce électronique - 2,23",
+        "INF36207 - Sécurité informatique - 3,08",
+        "INF33307 - Assurance de la qualité et gestion de projets inform. - 2,64"
+      ]
     }
   ],
   "awards": [],
@@ -141,22 +152,22 @@
     },
     {
       "name": "Microsoft Power BI",
-      "level": "9 mounths",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "SQL Server Integration Services (SSIS)",
-      "level": "6 mounths",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "Microsoft SQL Server",
-      "level": "6 mounths",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "MySQL",
-      "level": "3 mounths",
+      "level": "3 months",
       "keywords": []
     },
     {
@@ -166,52 +177,52 @@
     },
     {
       "name": "C++",
-      "level": "1 mounths",
+      "level": "1 year",
       "keywords": []
     },
     {
       "name": "C",
-      "level": "2 mounths",
+      "level": "2 years",
       "keywords": []
     },
     {
       "name": "SQL",
-      "level": "6 mounths",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "TypeScript",
-      "level": "2 mounths",
+      "level": "2 months",
       "keywords": []
     },
     {
       "name": "Docker",
-      "level": "3 mounths",
+      "level": "2 years",
       "keywords": []
     },
     {
       "name": "Flutter",
-      "level": "2 mounths",
+      "level": "2 months",
       "keywords": []
     },
     {
       "name": "Android",
-      "level": "4 mounths",
+      "level": "4 months",
       "keywords": []
     },
     {
       "name": "Python",
-      "level": "2 mounths",
+      "level": "2 months",
       "keywords": []
     },
     {
       "name": "Assembleur",
-      "level": "3 mounths",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "PhpMyAdmin",
-      "level": "3 mounths",
+      "level": "3 months",
       "keywords": []
     },
     {
@@ -244,7 +255,7 @@
     {
       "name": "Artisashop",
       "startDate": "2020-09-30",
-      "summary": "Plateforme de mise en relation entre artisans et clients. Créateur de la communauté, des designs et du backend C#",
+      "summary": "Artisashop is a platform for connecting customers and certified artisans. It will to keep the contact between the customers and the craftsmen as well as the authenticity of each of the creators. The platform is intended to be exclusive in order to guarantee professionalism for those who are looking for quality. It is a solution that promises personalization, efficiency, professionalism, simplicity, responsibility and accessibility.",
       "url": "https://www.facebook.com/ArtisashopContact/",
       "endDate": "2020-09-30"
     }
