@@ -1,9 +1,9 @@
 import data from '../assets/CV.json';
 
 function Link(props : {data : { network: string, username: string, url: string}}) {
-    return <div className="pb-2 mb:p-6">
+    return <div className="md:w-1/4 pb-2 mb:p-6">
         <a href={props.data.url}>
-            <img className=" w-28 md:w-32 lg:w-32" src={'./'+ props.data.network.replaceAll(" ", "") + '.png'}/>
+            <img className=" w-28 md:w-32 mx-auto" src={'./'+ props.data.network.replaceAll(" ", "") + '.png'}/>
         </a>
     </div>
 }
