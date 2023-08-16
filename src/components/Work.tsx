@@ -21,7 +21,7 @@ function Work(prop: { work: WorkObject, id: number }) {
                 <div className="pt-6">
                     <img className="flex justify-center w-40 mx-auto max-w-[15%] max-h-[15%]" src={'./' + prop.work.name.replaceAll(" ", "") + '.png'} />
                 </div>
-                <div className="p-6">
+                <div className="pt-6">
                     <div className="text-xl font-medium">{prop.work.position}</div>
                     <div>{prop.work.startDate + " : " + (prop.work.endDate ? prop.work.endDate : "")}</div>
                     <div>{prop.work.location}</div>
