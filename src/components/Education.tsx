@@ -1,5 +1,6 @@
 export interface EducationObject {
     institution: string,
+    url: string,
     area: string,
     studyType: string,
     startDate: string,
@@ -19,7 +20,7 @@ function Education(prop: { education: EducationObject, id: number }) {
     }
 
     return <div id={prop.id.toString()} className={"work w-full md:w-[45%] pb-6 self-end"}>
-        <div>
+        <a href={prop.education.url}>
             <div className="p-6 mx-auto bg-light text-dark rounded-xl shadow-lg items-center space-x-0 justify-center transition-colors">
                 <div className="text-3xl font-medium">{prop.education.institution}</div>
                 <div className="pt-6">
@@ -33,7 +34,7 @@ function Education(prop: { education: EducationObject, id: number }) {
                 <div className={(prop.education.score === "" ? "hidden": "font-bold pt-6")}>Overall score: {prop.education.score}</div>
                 <div className={(prop.education.courses.length === 0 ? "hidden": "pt-6")}>{courses}</div>
             </div>
-        </div>
+        </a>
     </div>
 }
 

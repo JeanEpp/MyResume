@@ -37,7 +37,7 @@
       "startDate": "2020-11-30",
       "endDate": "2021-07-31",
       "highlights": [],
-      "summary": "Analysis of current data management processes, implementation of automating solutions for Excel imports to SAP and SQL Server databases and creation of visual statistics reports for plant's executives using PowerBI.\nMigration of time management software. Offers analysis, needs gathering and transmitting, interventions preparation and sheduling",
+      "summary": "Data digitalisation with PowerBI & HRIS Software migration\n\nAchievements:\n- Automation of 6 SAP Excel imports to a SQL Server database connected to PowerBI dashboards deployed on cloud (Digitalisation)\n- Design of 3 reports with automated data update and used on daily bases by managers (Digitalisation)\n- Organisation of approximately 10 meetings allowing specification definition and offer selection (HRIS)\n- Validation of test stage and production realease planned for after my departure then made available for 360 employees(HRIS)",
       "url": "https://www.linkedin.com/company/schott/",
       "location": "Troisfontaines, Grand Est, France"
     },
@@ -47,7 +47,7 @@
       "startDate": "2019-07-31",
       "endDate": "2019-12-31",
       "highlights": [],
-      "summary": "Development of MyKuhn and KUHN EasyTransfer in C# ASP.NET MVC",
+      "summary": "MyKuhn and KUHN EasyTransfer web apps development\n\nAchievements:\n- Implemention of mock-ups and frontend migrated from Bootstrap 3 to 4 available for 5000 employees\n- Creation of Easytransfer file service exchange on cloud including 6 steps and test with final clients\n- Adding of a subscription interface in test stage and realease after my departure",
       "url": "https://www.linkedin.com/company/kuhn-group/",
       "location": "Saverne, Grand Est, France"
     },
@@ -74,6 +74,7 @@
   "education": [
     {
       "institution": "EPITECH - European Institute of Technology",
+      "url": "https://www.epitech.eu/en/",
       "area": "Computer Science",
       "studyType": "Master 2 (M2)",
       "startDate": "2017-12-31",
@@ -93,6 +94,7 @@
     },
     {
       "institution": "University of Quebec at Rimouski",
+      "url": "https://www.uqar.ca/etudes/etudier-a-l-uqar/programmes-d-etudes/4091",
       "area": "Computer Science",
       "studyType": "Informatic Certificat",
       "startDate": "2021-09-30",
@@ -301,7 +303,12 @@
     }
   ],
   "interests": [],
-  "references": [],
+  "references": [
+    { 
+      "name": "Alberto León Martín",
+      "reference": "I strongly recommend Mr. Jean Epp: his drive and ambition, along with his\npersonality and proven technical background, will exceed expectations."
+    }
+  ],
   "projects": [
     {
       "name": "Artisashop",

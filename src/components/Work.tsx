@@ -26,7 +26,7 @@ function Work(prop: { work: WorkObject, id: number }) {
                     <div>{prop.work.startDate + " : " + (prop.work.endDate ? prop.work.endDate : "")}</div>
                     <div>{prop.work.location}</div>
                 </div>
-                <span>{prop.work.summary}</span>
+                <div className={"whitespace-break-spaces " + (prop.work.summary === undefined ? "" : "pt-6")}>{prop.work.summary}</div>
                 <div>{prop.work.highlights}</div>
             </div>
         </a>
