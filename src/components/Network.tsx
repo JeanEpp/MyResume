@@ -29,7 +29,7 @@ function Network(prop: { skills: (SkillObject | LanguageObject)[] }) {
         let LINK_COLOR = colors['--light'];
         let SQUARE_COLOR = colors['--red'];
         let TEXT_COLOR = colors['--light'];
-        let TEXT_SIZE = document.querySelector('canvas')!.width < 600 ? 20 : 25;
+        let TEXT_SIZE = document.querySelector('canvas')!.width < 600 ? 20 : 20;
         const SPEED = 1;
         const SQUARE_AMOUNT = prop.skills.length;
         const LINK_RADIUS = document.getElementById("Skills/Languages")!.offsetWidth / 5;

@@ -78,13 +78,13 @@ function Carousel(prop: { projects: ProjectObject[] }) {
 
     for (let elem in prop.projects) {
         let item = prop.projects[elem]
-        list.push(<div id={"Project" + i++} key={i} className="carousel-item project flex text-center relative snap-start scale scale-75 md:w-1/3">
-            <a className='h-full w-full aspect-square flex flex-col justify-center bg-light transition-colors rounded-2xl z-0 pt-4' href={item.url}>
+        list.push(<div id={"Project" + i++} key={i} className="carousel-item project flex text-center relative snap-start scale scale-75 md:w-1/2 lg:w-1/3">
+            <a className='h-full w-full flex flex-col justify-center bg-light transition-colors rounded-2xl z-0 px-12 py-8' href={item.url}>
                 <div className="text-3xl font-medium">{item.name}</div>
                 <div className="pt-6">
                     <img className="flex justify-center w-32 mx-auto" src={'./'+ item.name.replaceAll(" ", "") + '.png'}/>
                 </div>
-                <div className="p-6">
+                <div className="pt-6">
                     <div className='pb-3'>{item.startDate + " : " + (item.endDate ? item.endDate : "")}</div>
                     <div>{item.summary}</div>
                 </div>

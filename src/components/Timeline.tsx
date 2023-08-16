@@ -5,7 +5,7 @@ import ProgressBar from "./ProgressBar";
 import Work, { isWorkObject, WorkObject } from "./Work";
 
 let i: number = 0;
-function Timeline(prop: { side: Array<WorkObject | EducationObject | null>, title: string }): JSX.Element {
+function Timeline(prop: { side: Array<WorkObject | EducationObject | null>, title: string[] }): JSX.Element {
     let colors = new Color().colors;
     var works: Array<HTMLElement> = [];
     let list: JSX.Element[] = [];
@@ -35,11 +35,14 @@ function Timeline(prop: { side: Array<WorkObject | EducationObject | null>, titl
     }
     return <div className={'flex-1 pt-8 md:pt-52 relative'}>
         <ProgressBar></ProgressBar>
-        <div className="flex text-3xl font-medium text-light py-4 border-solid border-y-8 mb-8 transition-colors">
-            <h1 className="w-[50%]">{prop.title}</h1>
-            <h1 className="w-[50%]">{prop.title}</h1>
+        <div className="hidden md:flex text-3xl font-medium text-light py-4 border-solid border-y-8 mb-8 transition-colors">
+            <h1 className="w-[50%]">{prop.title.at(0)}</h1>
+            <h1 className="w-[50%]">{prop.title.at(1)}</h1>
         </div>
-        <div className="px-12 pb-2 flex flex-col">
+        <div className="flex md:hidden justify-center text-3xl font-medium text-light py-4 border-solid border-y-8 mb-8 transition-colors">
+            <h1>{prop.title.at(0)!+ " & " + prop.title.at(1)!}</h1>
+        </div>
+        <div className="px-6 md:px-12 pb-2 flex flex-col">
             {list}
         </div>
     </div>

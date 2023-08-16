@@ -17,7 +17,7 @@ function Home() {
 	return <div>
 		<Profile></Profile>
 		<div id="timeline" className="flex flex-col md:flex-row justify-items-center">
-			<Timeline key={1} side={timeline} title={"Experience"}></Timeline>
+			<Timeline key={1} side={timeline} title={["Experience", "Education"]}></Timeline>
 		</div>
 		<Carousel projects={data.projects}></Carousel>
 		<Network skills={network}></Network>

@@ -18,7 +18,7 @@ function Education(prop: { education: EducationObject, id: number }) {
         courses.push(<p key={prop.education.institution + s}>{prop.education.courses[s]}</p>);
     }
 
-    return <div id={prop.id.toString()} className={"work w-[45%] pb-6 self-end"}>
+    return <div id={prop.id.toString()} className={"work w-full md:w-[45%] pb-6 self-end"}>
         <div>
             <div className="p-6 mx-auto bg-light text-dark rounded-xl shadow-lg items-center space-x-0 justify-center transition-colors">
                 <div className="text-3xl font-medium">{prop.education.institution}</div>

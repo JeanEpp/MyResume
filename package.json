@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently --kill-others \"vite\" \"npx tailwindcss -i ./src/App.css -o ./dist/main.css --watch\"",
+    "start": "concurrently --kill-others \"vite\" \"npx tailwindcss -i ./src/App.css -o ./dist/main.css --watch\"",
     "build": "npx tailwindcss -i ./src/App.css -o ./dist/main.css && tsc && vite build",
     "deploy": "bash ./deploy.sh",
     "preview": "vite preview"

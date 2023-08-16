@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Jean EPP",
-    "label": "Student",
+    "label": "Fullstack Developer",
     "image": "",
     "email": "jean.epp@epitech.eu",
     "phone": "+33 6 52 06 57 57",
     "url": "",
-    "summary": "I'm looking for a full-time internship from 4 to 6 months and ideally starting in March 2023 and endding at end August 2023 in web, mobile or software development.",
+    "summary": "I started my journey in informatic by starting Epitech. After 5 years of studies and 2 of various experiences. I acquired strong technical and soft skills which allow me to assume positions such as fullstack developer, devops, project manager, QA or BI analyst. I'm dedicated, conscientious and offering innovative ideas. Actually in end studies internship, i'm looking for a project manager, techlead, developer, devops or BI analyst job in full remote to be able to see my girlfriend in Mexico more often.",
     "location": {
       "countryCode": "FR",
       "address": "4 rue Hofgasse, 57820 Dannelbourg"
@@ -22,8 +22,18 @@
   },
   "work": [
     {
+      "name": "Alten",
+      "position": "Fullstack developer / Scrum master / Product Owner",
+      "startDate": "2023-03-01",
+      "endDate": "2023-08-31",
+      "highlights": [],
+      "summary": "Business managers internal resources management webapp\n\nAchievements:\n- Deployed on azure and connected to 2 external services\n- Covered by tests at 94% for backend and 86% for frontend\n- Delivered of 67 stories over 6 months",
+      "url": "https://www.linkedin.com/company/alten/",
+      "location": "Schiltigheim, Grand Est, France"
+    },
+    {
       "name": "SCHOTT",
-      "position": "Intern BI Analyst - Project Manager",
+      "position": "BI Analyst - Project Manager",
       "startDate": "2020-11-30",
       "endDate": "2021-07-31",
       "highlights": [],
@@ -33,7 +43,7 @@
     },
     {
       "name": "KUHN Group",
-      "position": "Web Developer",
+      "position": "Fullstack Developer",
       "startDate": "2019-07-31",
       "endDate": "2019-12-31",
       "highlights": [],
@@ -64,7 +74,7 @@
   "education": [
     {
       "institution": "EPITECH - European Institute of Technology",
-      "area": "Informatics",
+      "area": "Computer Science",
       "studyType": "Master 2 (M2)",
       "startDate": "2017-12-31",
       "endDate": "2023-12-31",
@@ -73,7 +83,8 @@
     },
     {
       "institution": "ESCP Business School",
-      "area": "Entrepreneuriat / études entrepreneuriales",
+      "url": "https://www.sayinstitute.eu/programme/option-e-madrid-social-entrepreneurship/",
+      "area": "Entrepreneurship",
       "studyType": "",
       "startDate": "2022-09-30",
       "endDate": "2022-12-31",
@@ -82,7 +93,7 @@
     },
     {
       "institution": "University of Quebec at Rimouski",
-      "area": "Information techonologies",
+      "area": "Computer Science",
       "studyType": "Informatic Certificat",
       "startDate": "2021-09-30",
       "endDate": "2022-04-30",
@@ -107,36 +118,31 @@
   "skills": [
     {
       "name": "C#",
-      "level": "3 years",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "3 years",
-      "keywords": []
-    },
-    {
-      "name": ".NET framework",
-      "level": "3 years",
-      "keywords": []
-    },
-    {
-      "name": "HTML",
       "level": "4 years",
       "keywords": []
     },
     {
-      "name": "Feuilles de style en cascade (CSS)",
+      "name": "Entity Framework",
+      "level": "4 years",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "4 years",
+      "keywords": []
+    },
+    {
+      "name": ".NET",
+      "level": "4 years",
+      "keywords": []
+    },
+    {
+      "name": "Gitlab",
       "level": "4 years",
       "keywords": []
     },
     {
       "name": "MongoDB",
-      "level": "2 years",
-      "keywords": []
-    },
-    {
-      "name": "ASP.NET",
       "level": "3 years",
       "keywords": []
     },
@@ -146,38 +152,28 @@
       "keywords": []
     },
     {
+      "name": "Docker",
+      "level": "3 years",
+      "keywords": []
+    },
+    {
       "name": "ASP.NET MVC",
       "level": "3 years",
       "keywords": []
     },
     {
-      "name": "Microsoft Power BI",
-      "level": "6 months",
+      "name": "TypeScript",
+      "level": "3 years",
       "keywords": []
     },
     {
-      "name": "SQL Server Integration Services (SSIS)",
-      "level": "6 months",
+      "name": "Gitlab CI",
+      "level": "2 years",
       "keywords": []
     },
     {
-      "name": "Microsoft SQL Server",
-      "level": "6 months",
-      "keywords": []
-    },
-    {
-      "name": "MySQL",
-      "level": "3 months",
-      "keywords": []
-    },
-    {
-      "name": "Git",
-      "level": "6 years",
-      "keywords": []
-    },
-    {
-      "name": "C++",
-      "level": "1 year",
+      "name": "PostgreSQL",
+      "level": "2 years",
       "keywords": []
     },
     {
@@ -186,48 +182,103 @@
       "keywords": []
     },
     {
+      "name": "Microsoft SQL Server",
+      "level": "1 year",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "1 year",
+      "keywords": []
+    },
+    {
+      "name": "C++",
+      "level": "1 year",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Power BI",
+      "level": "10 months",
+      "keywords": []
+    },
+    {
       "name": "SQL",
       "level": "6 months",
       "keywords": []
     },
     {
-      "name": "TypeScript",
-      "level": "2 months",
+      "name": "Kubernetes",
+      "level": "6 months",
       "keywords": []
     },
     {
-      "name": "Docker",
-      "level": "2 years",
+      "name": "Terraform",
+      "level": "6 months",
+      "keywords": []
+    },
+    {
+      "name": "Helm",
+      "level": "6 months",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "6 months",
+      "keywords": []
+    },
+    {
+      "name": "Angular",
+      "level": "6 months",
+      "keywords": []
+    },
+    {
+      "name": "Azure",
+      "level": "6 months",
+      "keywords": []
+    },
+    {
+      "name": "SCSS",
+      "level": "6 months",
+      "keywords": []
+    },
+    {
+      "name": "Maven",
+      "level": "6 months",
+      "keywords": []
+    },
+    {
+      "name": "Project management",
+      "level": "3 years",
+      "keywords": []
+    },
+    {
+      "name": "QA",
+      "level": "6 months",
+      "keywords": []
+    },
+    {
+      "name": "Devops",
+      "level": "3 years",
+      "keywords": []
+    },
+    {
+      "name": "Assembler",
+      "level": "6 months",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft SSIS",
+      "level": "4 months",
       "keywords": []
     },
     {
       "name": "Flutter",
-      "level": "2 months",
-      "keywords": []
-    },
-    {
-      "name": "Android",
       "level": "4 months",
       "keywords": []
     },
     {
       "name": "Python",
       "level": "2 months",
-      "keywords": []
-    },
-    {
-      "name": "Assembleur",
-      "level": "6 months",
-      "keywords": []
-    },
-    {
-      "name": "PhpMyAdmin",
-      "level": "3 months",
-      "keywords": []
-    },
-    {
-      "name": "Linux",
-      "level": "3 years",
       "keywords": []
     }
   ],
