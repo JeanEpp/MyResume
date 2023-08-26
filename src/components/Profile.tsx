@@ -21,7 +21,6 @@ function Profile() {
             </div>
             <div className="pb-6 md:p-6 md:w-2/4 font-medium">{data.basics.summary}</div>
             <Link data={data.basics.profiles[0]}/>
-            <div className="badge-base LI-profile-badge" data-locale="fr_FR" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="jean-epp" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/jean-epp?trk=profile-badge">Jean EPP</a></div>
         </div>
     </div>
 }
