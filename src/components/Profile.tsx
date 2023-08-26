@@ -2,8 +2,9 @@ import data from '../assets/CV.json';
 
 function Link(props : {data : { network: string, username: string, url: string}}) {
     return <div className="md:w-1/4 pb-2 mb:p-6">
-        
-        <div className="badge-base LI-profile-badge" data-locale="fr_FR" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="jean-epp" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/jean-epp?trk=profile-badge">Jean EPP</a></div>
+        <a href={props.data.url}>
+            <img className=" w-28 md:w-32 mx-auto" src={'./'+ props.data.network.replaceAll(" ", "") + '.png'}/>
+        </a>
     </div>
 }
 
@@ -20,6 +21,7 @@ function Profile() {
             </div>
             <div className="pb-6 md:p-6 md:w-2/4 font-medium">{data.basics.summary}</div>
             <Link data={data.basics.profiles[0]}/>
+            <div className="badge-base LI-profile-badge" data-locale="fr_FR" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="jean-epp" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/jean-epp?trk=profile-badge">Jean EPP</a></div>
         </div>
     </div>
 }
