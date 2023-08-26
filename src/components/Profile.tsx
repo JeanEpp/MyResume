@@ -2,18 +2,14 @@ import data from '../assets/CV.json';
 
 function Link(props : {data : { network: string, username: string, url: string}}) {
     return <div className="md:w-1/4 pb-2 mb:p-6">
-        <a href={props.data.url}>
-            <img className=" w-28 md:w-32 mx-auto" src={'./'+ props.data.network.replaceAll(" ", "") + '.png'}/>
-        </a>
-
-
+        
+        <div className="badge-base LI-profile-badge" data-locale="fr_FR" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="jean-epp" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/jean-epp?trk=profile-badge">Jean EPP</a></div>
     </div>
 }
 
 function Profile() {
 
     return <div id="Profile" className={'pt-6 md:py-20 md:pb-0 md:pt-28 md:px-12 px-6 h-[' + window.innerHeight + 'px]'}>
-        <div className="badge-base LI-profile-badge" data-locale="fr_FR" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="jean-epp" data-version="v1"><a className="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/jean-epp?trk=profile-badge">Jean EPP</a></div>
         <div className=" text-6xl md:text-9xl font-medium text-light">{data.basics.name}</div>
         <div className="p-6 mx-auto mt-6 md:mt-12 bg-red text-light rounded-xl shadow-lg items-center flex flex-col md:flex-row justify-center">
             <div className="p-6 md:w-1/4">
