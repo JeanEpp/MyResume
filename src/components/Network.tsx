@@ -339,7 +339,7 @@ function Network(prop: { skills: (SkillObject | LanguageObject)[] }) {
   return (
     <div id="skillsLanguages">
       <h2 className="text-4xl text-light leading-8 font-semibold pb-6 pt-4 border-y-8 text-slate-700 transition-colors">
-        {t("header.Skills")}/{t("header.Languages")}
+        {t("header.Skills") + " & " + t("header.Languages")}
       </h2>
       <canvas className="border-b-8 border-solid transition-colors md:h-[500px] h-[1000px] max-w-full w-full"></canvas>
       <div className="hidden bg-light px-2 rounded" id="tooltip" role="tooltip">
