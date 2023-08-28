@@ -47,7 +47,7 @@ function App() {
             {t("header.Skills")}/{t("header.Languages")}
           </a>
           <a
-            href={"./src/assets/" + t("header.CVLien")}
+            href={"./" + t("header.CVLien")}
           >
             {t("header.CV")}
           </a>
