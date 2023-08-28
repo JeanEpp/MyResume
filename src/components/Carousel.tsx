@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect, RefObject } from 'react';
 import Color from '../Colors';
+import { t } from 'i18next';
 
 export interface ProjectObject {
     name: string,
@@ -93,30 +94,65 @@ function Carousel(prop: { projects: ProjectObject[] }) {
     }
 
     return (
-        <div id="Projects" className="carousel mx-auto">
-            <h2 className="text-4xl text-light leading-8 font-semibold pb-6 pt-4 border-y-8 text-slate-700 transition-colors">Projects</h2>
-            <div className="relative overflow-hidden bg-opacity-0">
-                <div className="flex justify-between bg-opacity-0 absolute top left w-full h-full">
-                    <button onClick={movePrev} className="hover:bg-orange bg-opacity-0 text-light w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300" disabled={isDisabled('prev')}>
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-20-ml-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-                        </svg>
-                        <span className="sr-only">Prev</span>
-                    </button>
-                    <button onClick={moveNext} className="hover:bg-orange bg-opacity-0 text-light w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300" disabled={isDisabled('next')}>
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-20-ml-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} >
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                        </svg>
-                        <span className="sr-only">Next</span>
-                    </button>
-                </div>
-                <div className='px-9 py-6'>
-                    <div ref={carousel} className="carousel-container relative justify-center flex overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0">
-                        {list};
-                    </div>
-                </div>
+      <div id="Projects" className="carousel mx-auto">
+        <h2 className="text-4xl text-light leading-8 font-semibold pb-6 pt-4 border-y-8 text-slate-700 transition-colors">
+          {t("header.Projects")}
+        </h2>
+        <div className="relative overflow-hidden bg-opacity-0">
+          <div className="flex justify-between bg-opacity-0 absolute top left w-full h-full">
+            <button
+              onClick={movePrev}
+              className="hover:bg-orange bg-opacity-0 text-light w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
+              disabled={isDisabled("prev")}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-12 w-20-ml-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+              <span className="sr-only">Prev</span>
+            </button>
+            <button
+              onClick={moveNext}
+              className="hover:bg-orange bg-opacity-0 text-light w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
+              disabled={isDisabled("next")}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-12 w-20-ml-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+              <span className="sr-only">Next</span>
+            </button>
+          </div>
+          <div className="px-9 py-6">
+            <div
+              ref={carousel}
+              className="carousel-container relative justify-center flex overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
+            >
+              {list};
             </div>
+          </div>
         </div>
+      </div>
     );
 };
 

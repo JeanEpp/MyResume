@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Jean EPP",
-    "label": "Développeur Fullstack",
+    "label": "Fullstack Developer",
     "image": "",
     "email": "jean.epp@epitech.eu",
     "phone": "+33 6 52 06 57 57",
     "url": "https://jeanepp.github.io/MyResume",
-    "summary": "J'ai commencer mon parcours en commaçant par Epitech. Après 5 ans détudes dont 2 d'expériences variées. J'ai acquis des compétences techniques et des soft skills qui m'ont permis d'assumer des postes comme développeur fullstack, devops, chef de projet, QA, ou analyste BI. Je suis une personne qui s'investit, consciencieuse, offrant de nouvelles idée. Actuellement en stage de fin d'études, je suis à la recherche d'un poste de chef de projet, techlead, développeur, devops ou analyste BI en full remote pour pouvoir rejoindre ma petite amie au mexique plus souvent.",
+    "summary": "I started my journey in informatic by starting Epitech. After 5 years of studies and 2 of various experiences. I acquired strong technical and soft skills which allow me to assume positions such as fullstack developer, devops, project manager, QA or BI analyst. I'm dedicated, conscientious and offering innovative ideas. Actually in end studies internship, i'm looking for a project manager, techlead, developer, devops or BI analyst job in full remote to be able to see my girlfriend in Mexico more often.",
     "location": {
       "countryCode": "FR",
       "address": "4 rue Hofgasse, 57820 Dannelbourg"
@@ -16,44 +16,44 @@
       {
         "network": "LinkedIn",
         "username": "ACoAACXbmGEBwWTkDVujHUSbCHOw_614wf6Xg28",
-        "url": "https://www.linkedin.com/in/jean-epp/"
+        "url": "https://www.linkedin.com/in/jean-epp/?locale=en_US"
       }
     ]
   },
   "work": [
     {
       "name": "Alten",
-      "position": "Développeur Fullstack / Scrum master / Product Owner",
+      "position": "Fullstack developer / Scrum master / Product Owner",
       "startDate": "2023-03-01",
       "endDate": "2023-08-31",
       "highlights": [],
-      "summary": "Webapp de gestion interne des ressources des business managers\n\nRésultats:\n- Déployé sur Azure et connecté avec 2 services externes\n- Couvert à 94% pour le backend et 86% pour le frontend\n- Livraison de 67 stories sur 6 mois",
+      "summary": "Business managers internal resources management webapp\n\nAchievements:\n- Deployed on azure and connected to 2 external services\n- Covered by tests at 94% for backend and 86% for frontend\n- Delivered of 67 stories over 6 months",
       "url": "https://www.linkedin.com/company/alten/",
       "location": "Schiltigheim, Grand Est, France"
     },
     {
       "name": "SCHOTT",
-      "position": "Analyste BI - Chef de projet",
+      "position": "BI Analyst - Project Manager",
       "startDate": "2020-11-30",
       "endDate": "2021-07-31",
       "highlights": [],
-      "summary": "Numérisation des données avec PowerBI & Migration logiciel SIRH\n\nRésultats:- Automatisation de 6 imports Excel SAP vers une base de données SQL Server connectée avec des tableaux de bord PowerBI déployés sur le cloud (Digitalisation)\n- Design de 3 rapports avec mise à jour des données automatisée et utilisés quotidiennement par les managers (Digitalisation)\n- Organisation d'une dizaine de réunions afin de définir le cahier des charges et sélectionner une offre (HRIS)\n- Validation de la phase de test et mise en production prévue pour après mon départ puis disponible pour les 360 employés(HRIS)",
+      "summary": "Data digitalisation with PowerBI & HRIS Software migration\n\nAchievements:\n- Automation of 6 SAP Excel imports to a SQL Server database connected to PowerBI dashboards deployed on cloud (Digitalisation)\n- Design of 3 reports with automated data update and used on daily bases by managers (Digitalisation)\n- Organisation of approximately 10 meetings allowing specification definition and offer selection (HRIS)\n- Validation of test stage and production realease planned for after my departure then made available for 360 employees(HRIS)",
       "url": "https://www.linkedin.com/company/schott/",
       "location": "Troisfontaines, Grand Est, France"
     },
     {
       "name": "KUHN Group",
-      "position": "Développeur Fullstack",
+      "position": "Fullstack Developer",
       "startDate": "2019-07-31",
       "endDate": "2019-12-31",
       "highlights": [],
-      "summary": "Développement des applicatifs web MyKuhn et de KUHN EasyTransfer\n\nRésultats:\n- Implémentation de maquettes et frontend migré de Bootstrap 3 à 4, mise à jour utilisée par 5000 employés\n- Création du service d'échange de fichiers Easytransfer sur le cloud incluant 6 étapes et testé avec les clients finaux\n- Ajout d'une interface d'abonnement en phase de test et mise en production après mon départ",
+      "summary": "MyKuhn and KUHN EasyTransfer web apps development\n\nAchievements:\n- Implemention of mock-ups and frontend migrated from Bootstrap 3 to 4 available for 5000 employees\n- Creation of Easytransfer file service exchange on cloud including 6 steps and test with final clients\n- Adding of a subscription interface in test stage and realease after my departure",
       "url": "https://www.linkedin.com/company/kuhn-group/",
       "location": "Saverne, Grand Est, France"
     },
     {
       "name": "Domaine Bernhard & Reibel",
-      "position": "Vendangeur/Caviste",
+      "position": "Picker/Callerman",
       "startDate": "2018-09-30",
       "endDate": "2018-09-30",
       "highlights": [],
@@ -62,7 +62,7 @@
     },
     {
       "name": "Domaine Bernhard & Reibel",
-      "position": "Vendangeur",
+      "position": "Picker",
       "startDate": "2017-09-30",
       "endDate": "2017-09-30",
       "highlights": [],
@@ -75,7 +75,7 @@
     {
       "institution": "EPITECH - European Institute of Technology",
       "url": "https://www.epitech.eu/en/",
-      "area": "Informatique",
+      "area": "Computer Science",
       "studyType": "Master 2 (M2)",
       "startDate": "2017-12-31",
       "endDate": "2023-12-31",
@@ -85,7 +85,7 @@
     {
       "institution": "ESCP Business School",
       "url": "https://www.sayinstitute.eu/programme/option-e-madrid-social-entrepreneurship/",
-      "area": "Entreprenariat",
+      "area": "Entrepreneurship",
       "studyType": "Option E",
       "startDate": "2022-09-30",
       "endDate": "2022-12-31",
@@ -95,8 +95,8 @@
     {
       "institution": "University of Quebec at Rimouski",
       "url": "https://www.uqar.ca/etudes/etudier-a-l-uqar/programmes-d-etudes/4091",
-      "area": "Informatique",
-      "studyType": "Certificat en informatique",
+      "area": "Computer Science",
+      "studyType": "Informatic Certificat",
       "startDate": "2021-09-30",
       "endDate": "2022-04-30",
       "score": "2.57",
@@ -120,67 +120,67 @@
   "skills": [
     {
       "name": "C#",
-      "level": "4 ans",
+      "level": "4 years",
       "keywords": []
     },
     {
       "name": "Entity Framework",
-      "level": "4 ans",
+      "level": "4 years",
       "keywords": []
     },
     {
       "name": "JavaScript",
-      "level": "4 ans",
+      "level": "4 years",
       "keywords": []
     },
     {
       "name": ".NET",
-      "level": "4 ans",
+      "level": "4 years",
       "keywords": []
     },
     {
       "name": "Gitlab",
-      "level": "4 ans",
+      "level": "4 years",
       "keywords": []
     },
     {
       "name": "MongoDB",
-      "level": "3 ans",
+      "level": "3 years",
       "keywords": []
     },
     {
       "name": "Architecture MVC",
-      "level": "3 ans",
+      "level": "3 years",
       "keywords": []
     },
     {
       "name": "Docker",
-      "level": "3 ans",
+      "level": "3 years",
       "keywords": []
     },
     {
       "name": "ASP.NET MVC",
-      "level": "3 ans",
+      "level": "3 years",
       "keywords": []
     },
     {
       "name": "TypeScript",
-      "level": "3 ans",
+      "level": "3 years",
       "keywords": []
     },
     {
       "name": "Gitlab CI",
-      "level": "2 ans",
+      "level": "2 years",
       "keywords": []
     },
     {
       "name": "PostgreSQL",
-      "level": "2 ans",
+      "level": "2 years",
       "keywords": []
     },
     {
       "name": "C",
-      "level": "2 ans",
+      "level": "2 years",
       "keywords": []
     },
     {
@@ -200,87 +200,87 @@
     },
     {
       "name": "Microsoft Power BI",
-      "level": "10 mois",
+      "level": "10 months",
       "keywords": []
     },
     {
       "name": "SQL",
-      "level": "6 mois",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "Kubernetes",
-      "level": "6 mois",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "Terraform",
-      "level": "6 mois",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "Helm",
-      "level": "6 mois",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "Java",
-      "level": "6 mois",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "Angular",
-      "level": "6 mois",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "Azure",
-      "level": "6 mois",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "SCSS",
-      "level": "6 mois",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "Maven",
-      "level": "6 mois",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "Project management",
-      "level": "3 ans",
+      "level": "3 years",
       "keywords": []
     },
     {
       "name": "QA",
-      "level": "6 mois",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "Devops",
-      "level": "3 ans",
+      "level": "3 years",
       "keywords": []
     },
     {
       "name": "Assembler",
-      "level": "6 mois",
+      "level": "6 months",
       "keywords": []
     },
     {
       "name": "Microsoft SSIS",
-      "level": "4 mois",
+      "level": "4 months",
       "keywords": []
     },
     {
       "name": "Flutter",
-      "level": "4 mois",
+      "level": "4 months",
       "keywords": []
     },
     {
       "name": "Python",
-      "level": "2 mois",
+      "level": "2 months",
       "keywords": []
     }
   ],
@@ -313,7 +313,7 @@
     {
       "name": "Artisashop",
       "startDate": "2020-09-30",
-      "summary": "Artisashop est une plateforme de mise en relation entre clients et artisans certifiés. Elle veut garder le contact entre les clients et les artisans ainsi que l'authenticité de chacun des créateurs. La plateforme se veut exclusive afin de garantir un professionnalisme pour ceux qui sont en quête de qualité. C'est une solution qui promet personnalisation, professionnalisme, simplicité, responsabilité et accessibilité.",
+      "summary": "Artisashop is a platform for connecting customers and certified artisans. It will to keep the contact between the customers and the craftsmen as well as the authenticity of each of the creators. The platform is intended to be exclusive in order to guarantee professionalism for those who are looking for quality. It is a solution that promises personalization, efficiency, professionalism, simplicity, responsibility and accessibility.",
       "url": "https://www.facebook.com/ArtisashopContact/",
       "endDate": "2023-01-30"
     }

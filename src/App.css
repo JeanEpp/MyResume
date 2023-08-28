@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  transition: all ease 0.2s;
+}
+
 .App {
   text-align: center;
 }
