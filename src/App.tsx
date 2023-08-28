@@ -47,8 +47,7 @@ function App() {
             {t("header.Skills")}/{t("header.Languages")}
           </a>
           <a
-            className={"hover:text-orange"}
-            href={"%PUBLIC_URL%/" + t("header.CVLien")}
+            href={"./src/assets/" + t("header.CVLien")}
           >
             {t("header.CV")}
           </a>
