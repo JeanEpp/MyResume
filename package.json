@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "concurrently --kill-others \"vite\" \"npx tailwindcss -i ./src/App.css -o ./dist/main.css --watch\"",
-    "build": "npx tailwindcss -i ./src/App.css -o ./dist/main.css && tsc && vite build",
+    "start": "concurrently --kill-others \"vite\" \"npx tailwindcss -i ./src/App.less -o ./dist/main.css --watch\"",
+    "build": "npx tailwindcss -i ./src/App.less -o ./dist/main.css && tsc && vite build",
     "deploy": "bash ./deploy.sh",
     "preview": "vite preview"
   },
@@ -32,7 +32,10 @@
     "date-fns": "^2.29.3",
     "eslint": "^8.24.0",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "less": "^4.2.0",
     "postcss": "^8.4.28",
+    "postcss-import": "^15.1.0",
+    "postcss-nesting": "^12.0.1",
     "prettier": "^3.0.2",
     "prettier-plugin-tailwindcss": "^0.5.3",
     "tailwindcss": "^3.3.3",

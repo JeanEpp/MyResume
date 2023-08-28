@@ -35,16 +35,14 @@ function Network(prop: { skills: (SkillObject | LanguageObject)[] }) {
     const SPEED = 1;
     const SQUARE_AMOUNT = prop.skills.length;
     const LINK_RADIUS =
-      document.getElementById("Skills/Languages")!.offsetWidth / 5;
+      document.getElementById("skillsLanguages")!.offsetWidth / 5;
     let mouse: { x: number; y: number } = { x: 0, y: 0 };
     let popper_t = 0,
       popper_l = 0;
 
     let canvas: HTMLCanvasElement,
       ctx: CanvasRenderingContext2D,
-      squares: Array<Circle> = [],
-      loopId,
-      id;
+      squares: Array<Circle> = [];
 
     const init = () => {
       canvas = document.querySelector("canvas")!;
@@ -178,8 +176,18 @@ function Network(prop: { skills: (SkillObject | LanguageObject)[] }) {
         this.size_x = size_x;
         this.size_y = 40;
         this.name = name;
-        if (isSkillObject(object)) this.level = t("competencies.level") + ": " + (object.level.includes("years") == true ? object.level.replace("years", t("competencies.years")) : object.level.includes("year") == true ? object.level.replace("year", t("competencies.year")) : object.level.replace("months", t("competencies.months")));
-        else this.fluency = t("languages.Fluency") + ": " + t("languages." + object.fluency);
+        if (isSkillObject(object))
+          this.level =
+            t("competencies.level") +
+            ": " +
+            (object.level.includes("years") === true
+              ? object.level.replace("years", t("competencies.years"))
+              : object.level.includes("year") === true
+              ? object.level.replace("year", t("competencies.year"))
+              : object.level.replace("months", t("competencies.months")));
+        else
+          this.fluency =
+            t("languages.Fluency") + ": " + t("languages." + object.fluency);
       }
 
       update = () => {
@@ -301,17 +309,17 @@ function Network(prop: { skills: (SkillObject | LanguageObject)[] }) {
         }
       );
       window.addEventListener("resize", function () {
-        canvas.width = document.getElementById("Skills/Languages")!.offsetWidth;
+        canvas.width = document.getElementById("skillsLanguages")!.offsetWidth;
         canvas.height =
-          document.getElementById("Skills/Languages")!.offsetHeight;
+          document.getElementById("skillsLanguages")!.offsetHeight;
         resizeReset();
       });
       init();
     })();
 
     window.addEventListener("scroll", () => {
-      let network = document.getElementById("Skills/Languages")!.children[0];
-      let canvass = document.getElementById("Skills/Languages")!.children[1];
+      let network = document.getElementById("skillsLanguages")!.children[0];
+      let canvass = document.getElementById("skillsLanguages")!.children[1];
       let rect = network.getBoundingClientRect();
       (network as HTMLElement).style.borderColor =
         window.innerHeight - rect.top <= window.innerHeight * 0.3
@@ -329,7 +337,7 @@ function Network(prop: { skills: (SkillObject | LanguageObject)[] }) {
   });
 
   return (
-    <div id="Skills/Languages">
+    <div id="skillsLanguages">
       <h2 className="text-4xl text-light leading-8 font-semibold pb-6 pt-4 border-y-8 text-slate-700 transition-colors">
         {t("header.Skills")}/{t("header.Languages")}
       </h2>

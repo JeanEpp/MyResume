@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  transition: all ease 0.2s;
-}
 
 .App {
   text-align: center;
@@ -16,13 +13,15 @@
   background-color: dark;
   color: light;
   padding: 0.5rem 1rem;
-}
-
-.App nav a {
-  color: light;
-  text-decoration: none;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  & * {
+      transition: all ease 0.2s;
+  }
+  a {
+      color: light;
+      text-decoration: none;
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
 }
 
 .work {

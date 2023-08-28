@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.less";
 import { Link, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import { useEffect } from "react";
@@ -12,7 +12,6 @@ function App() {
     "en-US": { nativeName: "EN" },
     "fr-FR": { nativeName: "FR" },
   };
-  let colors = new Color().colors;
   const selectedLanguage = Object.keys(lngs).map((lng) => (
     <button
       key={lng}
@@ -44,7 +43,7 @@ function App() {
           <a className={"hover:text-orange"} href="#Projects">
             {t("header.Projects")}
           </a>
-          <a className={"hover:text-orange"} href="#Skills/Languages">
+          <a className={"hover:text-orange"} href="#skillsLanguages">
             {t("header.Skills")}/{t("header.Languages")}
           </a>
           <a
