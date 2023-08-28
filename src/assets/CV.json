@@ -7,7 +7,7 @@
     "email": "jean.epp@epitech.eu",
     "phone": "+33 6 52 06 57 57",
     "url": "https://jeanepp.github.io/MyResume",
-    "summary": "J'ai commencé mon parcours en commançant par Epitech. Après 5 ans d'études dont 2 d'expériences variées. J'ai acquis des compétences techniques et des soft skills qui m'ont permis d'assumer des postes comme développeur fullstack, devops, chef de projet, QA ou analyste BI. Je suis une personne investie, consciencieuse, offrant de nouvelles idées. Actuellement en stage de fin d'études, je suis à la recherche d'un poste de chef de projet, techlead, développeur, devops ou analyste BI en full remote pour pouvoir rejoindre ma petite amie au Mexique plus souvent.",
+    "summary": "J'ai commencé mon parcours en commançant par Epitech. Après 5 ans d'études dont 2 d'expériences variées, j'ai acquis des compétences techniques et des soft skills qui m'ont permis d'assumer des postes comme développeur fullstack, devops, chef de projet, QA ou analyste BI. Je suis une personne investie, consciencieuse, offrant de nouvelles idées. Actuellement en stage de fin d'études, je suis à la recherche d'un poste de chef de projet, techlead, développeur, devops ou analyste BI en full remote pour pouvoir rejoindre ma petite amie au Mexique plus souvent.",
     "location": {
       "countryCode": "FR",
       "address": "4 rue Hofgasse, 57820 Dannelbourg"
@@ -37,7 +37,7 @@
       "startDate": "2020-11-30",
       "endDate": "2021-07-31",
       "highlights": [],
-      "summary": "Numérisation des données avec PowerBI & Migration logiciel SIRH\n\nRésultats:- Automatisation de 6 imports Excel SAP vers une base de données SQL Server connectée avec des tableaux de bord PowerBI déployés sur le cloud (Digitalisation)\n- Design de 3 rapports avec mise à jour des données automatisée, utilisés quotidiennement par les managers (Digitalisation)\n- Organisation d'une dizaine de réunions afin de définir le cahier des charges et sélectionner une offre (HRIS)\n- Validation de la phase de test et mise en production prévue pour après mon départ puis disponible pour les 360 employés (HRIS)",
+      "summary": "Numérisation des données avec PowerBI & Migration logiciel SIRH\n\nRésultats:\n- Automatisation de 6 imports Excel SAP vers une base de données SQL Server connectée avec des tableaux de bord PowerBI déployés sur le cloud (Digitalisation)\n- Design de 3 rapports avec mise à jour des données automatisée, utilisés quotidiennement par les managers (Digitalisation)\n- Organisation d'une dizaine de réunions afin de définir le cahier des charges et sélectionner une offre (SIRH)\n- Validation de la phase de test et mise en production prévue pour après mon départ puis disponible pour les 360 employés (SIRH)",
       "url": "https://www.linkedin.com/company/schott/",
       "location": "Troisfontaines, Grand Est, France"
     },
