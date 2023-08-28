@@ -48,7 +48,7 @@ function App() {
           </a>
           <a
             className={"hover:text-orange"}
-            href={"./src/assets/" + t("header.CVLien")}
+            href={"%PUBLIC_URL%/" + t("header.CVLien")}
           >
             {t("header.CV")}
           </a>
