@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { applyTheme } from "./utils";
 import Color from "./Colors";
 import { useTranslation, Trans } from "react-i18next";
+import Example from "./components/Nav";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -31,8 +32,8 @@ function App() {
     applyTheme(new Color());
   }, []);
   return (
-    <div className="App">
-      <nav className="sticky top-0 text-light bg-dark z-20">
+    <div className="App text-center">
+      <nav className="sticky top-0 text-light bg-dark z-20 hidden md:flex">
         <div className="menu">
           <a className={"hover:text-orange"} href="#Profile">
             {t("header.Profile")}
@@ -46,9 +47,7 @@ function App() {
           <a className={"hover:text-orange"} href="#skillsLanguages">
             {t("header.Skills")}/{t("header.Languages")}
           </a>
-          <a
-            href={"./" + t("header.CVLien")}
-          >
+          <a className={"hover:text-orange"} href={"./" + t("header.CVLien")}>
             {t("header.CV")}
           </a>
         </div>
@@ -56,6 +55,9 @@ function App() {
           {selectedLanguage[0]} / {selectedLanguage[1]}
         </div>
       </nav>
+      <div className="md:hidden bg-dark h-[58px] z-[1000] w-full fixed">
+        <Example />
+      </div>
 
       <Routes>
         <Route path="/MyResume" element={<Home />}></Route>
