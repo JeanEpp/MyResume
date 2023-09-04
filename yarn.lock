@@ -2246,7 +2246,7 @@ __metadata:
     react: ^18.2.0
     react-burger-menu: ^3.0.9
     react-dom: ^18.2.0
-    react-i18next: ^13.2.0
+    react-i18next: ^13.2.2
     react-popper: ^2.3.0
     react-router-dom: ^6.4.2
     tailwindcss: ^3.3.3
@@ -3158,9 +3158,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-i18next@npm:^13.2.0":
-  version: 13.2.0
-  resolution: "react-i18next@npm:13.2.0"
+"react-i18next@npm:^13.2.2":
+  version: 13.2.2
+  resolution: "react-i18next@npm:13.2.2"
   dependencies:
     "@babel/runtime": ^7.22.5
     html-parse-stringify: ^3.0.1
@@ -3172,7 +3172,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 6f7e375b22481dbd1b8c2498505f5a2309263a228bdc3dcd4cbc2e2f7b8d3945397a2560ffab87337341e14fb919a804d20189dcf0f651de8d006fd550830aea
+  checksum: 2b85bfb347af1a00add1c02901025706f7d2037fade4e8aa08159287ddf012e8cf35626eb9f5c578b9d1c24c065c69f2ad4b5a3087fb5cdbea540f8bc18c0f59
   languageName: node
   linkType: hard
 
@@ -3835,11 +3835,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=1f5320"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
+  checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
   languageName: node
   linkType: hard
 
