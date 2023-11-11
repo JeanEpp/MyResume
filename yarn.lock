@@ -308,6 +308,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.23.2":
+  version: 7.23.2
+  resolution: "@babel/runtime@npm:7.23.2"
+  dependencies:
+    regenerator-runtime: ^0.14.0
+  checksum: 6c4df4839ec75ca10175f636d6362f91df8a3137f86b38f6cd3a4c90668a0fe8e9281d320958f4fbd43b394988958585a17c3aab2a4ea6bf7316b22916a371fb
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.22.15":
   version: 7.22.15
   resolution: "@babel/template@npm:7.22.15"
@@ -2126,12 +2135,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:^23.4.6":
-  version: 23.4.6
-  resolution: "i18next@npm:23.4.6"
+"i18next@npm:^23.7.3":
+  version: 23.7.3
+  resolution: "i18next@npm:23.7.3"
   dependencies:
-    "@babel/runtime": ^7.22.5
-  checksum: ffc63889e28b2bfce2c6e635bd686087290fe2e2f58e0a235525011bb74d541ff681895abe994b12546be6c92b66a7cc3002a13c26e587b4da8c89b15ef648db
+    "@babel/runtime": ^7.23.2
+  checksum: 2771c6224140e2e7152a2e2345f844dc19b73e7198dc19d852eb9a6013e818e718b86cbef397762a6166ff4c898715d9cdfd46f6ddcf7928733a7925724e4439
   languageName: node
   linkType: hard
 
@@ -2314,7 +2323,7 @@ __metadata:
     date-fns: ^2.29.3
     eslint: ^8.53.0
     eslint-plugin-react-hooks: ^4.6.0
-    i18next: ^23.4.6
+    i18next: ^23.7.3
     i18next-browser-languagedetector: ^7.1.0
     less: ^4.2.0
     postcss: ^8.4.31
